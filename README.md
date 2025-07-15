@@ -1,4 +1,4 @@
-# 🎟️ Event Booking Platform - Full Stack Developer Challenge
+# 🎟️ Full Stack Developer Challenge - Event Booking Platform
 
 ## 📝 Project Description
 
