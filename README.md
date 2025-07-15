@@ -82,7 +82,7 @@ Build a functional MVP (Minimum Viable Product) of an event booking system with 
 ---
 
 ## ✨ Bonus Features (Optional)
-- Stripe (or dummy) payment integration for paid events.
+- Payment integration for paid events.
 - Email notifications for booking confirmation/cancellation.
 - Pagination & filtering for events list.
 - Admin dashboard UI with charts for event attendance.
@@ -94,7 +94,6 @@ Build a functional MVP (Minimum Viable Product) of an event booking system with 
 2. A README with:
    - Setup instructions.
    - API documentation (or Postman collection).
-3. A short Loom/video walkthrough of the app.
 
 ---
 
