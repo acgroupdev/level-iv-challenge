@@ -55,12 +55,11 @@ Build a functional MVP (Minimum Viable Product) of an event booking system with 
 - **Customer Protected**
   - `POST /bookings` - Book a ticket.
   - `GET /bookings` - View my bookings.
-  - `DELETE /bookings/:id` - Cancel my booking.
+  - `PUT /bookings/:id` - Cancel my booking.
 
 - **Admin Protected**
   - `POST /events` - Create a new event.
   - `PUT /events/:id` - Update an event.
-  - `DELETE /events/:id` - Delete an event.
   - `GET /events/:id/bookings` - View all bookings for an event.
 
 ---
@@ -75,9 +74,7 @@ Build a functional MVP (Minimum Viable Product) of an event booking system with 
 
 ### Frontend
 - React (with TypeScript)
-- TailwindCSS or Material-UI for styling
-- React Query (or SWR) for API calls
-- Form management with React Hook Form
+- TailwindCSS or Material-UI for styling is allowed
 
 ---
 
@@ -86,12 +83,16 @@ Build a functional MVP (Minimum Viable Product) of an event booking system with 
 - Email notifications for booking confirmation/cancellation.
 - Pagination & filtering for events list.
 - Admin dashboard UI with charts for event attendance.
+- React Query (or SWR) for API calls
+- Form management with React Hook Form
+- If applicable, host on AWS EC2 (free tier)
 
 ---
 
 ## 📂 Deliverables
 1. **Frontend** and **Backend** source code in a GitHub repository.
-2. A README with:
+2. Tests on the backend at least 65% coverage
+3. A README with:
    - Setup instructions.
    - API documentation (or Postman collection).
 
